@@ -1,19 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    turbo: {
-      rules: {
-        "*.png": ["file"],
-      },
+  reactStrictMode: true, // helps catch issues in dev
+  images: {
+    domains: ["images.unsplash.com", "yourdomain.com"], // whitelist domains for <Image />
+  },
+  turbopack: {
+    rules: {
+      "*.png": ["file"], // allow importing PNG files
     },
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
