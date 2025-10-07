@@ -346,7 +346,7 @@ export default function Home() {
     <div className="text-center">
       <h3 className="font-bold text-lg mb-3">NEXTRIVE OFFICE ADDRESS</h3>
       <p className="text-sm flex items-center justify-center mb-5  md:justify-start gap-2">
-        📍 No. 5, Alhaji Habu Upstairs, Opp. Yan-Gwanjo Mosque, Mubi Main Market, Mubi North, Adamawa State.
+        📍 No. 4, Alhaji Habu Upstairs, Opp. Yan-Gwanjo Mosque, Mubi Main Market, Mubi North, Adamawa State.
       </p>
       <h1 className="font-bold">CUSTOMER SUPPORT</h1>
       <p className="text-sm flex items-center justify-center  md:justify-start gap-2">
